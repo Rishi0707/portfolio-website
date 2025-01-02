@@ -142,7 +142,7 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='public\Rishi_Agrawal_CSE_2025_.pdf' // Replace with the path to your resume PDF
+        href='public\assests\Rishi_Agrawal_CSE_2025_.pdf' // Replace with the path to your resume PDF
         download='Rishi_Agrawal_CSE_2025_.pdf' // The file will be downloaded with this name
       >
         Resume <BsFillPersonLinesFill size={30} />
