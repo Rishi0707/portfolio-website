@@ -143,7 +143,9 @@ const Navbar = () => {
       <a
         className='flex justify-between items-center w-full text-gray-300'
         href='https://drive.google.com/file/d/1OIsu0hel8Prx6WxProZbl02uVPux4EnO/view?usp=drive_link' // Replace with the path to your resume PDF
-        download='Rishi_Agrawal_CSE_2025_.pdf' // The file will be downloaded with this name
+        download='Rishi_Agrawal_CSE_2025_.pdf' 
+        rel="noopener noreferrer"
+        target="_blank"// The file will be downloaded with this name
       >
         Resume <BsFillPersonLinesFill size={30} />
       </a>
