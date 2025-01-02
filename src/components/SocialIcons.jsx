@@ -52,6 +52,7 @@ const SocialIcons = () => {
             className="flex justify-between items-center w-full text-gray-300"
             href="src/assets/Rishi_Agrawal_CSE_2025_.pdf"
             download="Rishi_Agrawal_CSE_2025_.pdf"
+            type="application/pdf"
           >
             Resume <BsFillPersonLinesFill size={0} />
           </a>
