@@ -50,7 +50,7 @@ const SocialIcons = () => {
         <li className="w-[160px] h-[60px] flex justify-between items-center mx-1  duration-300 bg-[#565f69]">
           <a
             className="flex justify-between items-center w-full text-gray-300"
-            href="public/assests/Rishi_Agrawal_CSE_2025_.pdf"
+            href="https://drive.google.com/file/d/1OIsu0hel8Prx6WxProZbl02uVPux4EnO/view?usp=drive_link"
             download="Rishi_Agrawal_CSE_2025_.pdf"
             type="application/pdf"
           >
