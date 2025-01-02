@@ -53,6 +53,7 @@ const SocialIcons = () => {
             href="https://drive.google.com/file/d/1OIsu0hel8Prx6WxProZbl02uVPux4EnO/view?usp=drive_link"
             download="Rishi_Agrawal_CSE_2025_.pdf"
             type="application/pdf"
+            rel="noopener noreferrer"
           >
             Resume <BsFillPersonLinesFill size={0} />
           </a>
