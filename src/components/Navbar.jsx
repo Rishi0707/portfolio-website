@@ -100,15 +100,14 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social Icons */}
-
-<div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+{/* Social Icons */}
+<div className='flex fixed flex-col top-[35%] left-0'>
   <ul>
     {/* LinkedIn */}
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='https://www.linkedin.com/in/rishi-agrawal-136780230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' // Replace with your LinkedIn profile link
+        href='https://www.linkedin.com/in/rishi-agrawal-136780230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
         target='_blank'
         rel='noopener noreferrer'
       >
@@ -120,7 +119,7 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='https://github.com/Rishi0707' // Replace with your GitHub profile link
+        href='https://github.com/Rishi0707'
         target='_blank'
         rel='noopener noreferrer'
       >
@@ -132,7 +131,7 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='mailto:rishiagrawal200319@gmail.com' // Replace with your email address
+        href='mailto:rishiagrawal200319@gmail.com'
       >
         Email <HiOutlineMail size={30} />
       </a>
@@ -142,14 +141,15 @@ const Navbar = () => {
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
       <a
         className='flex justify-between items-center w-full text-gray-300'
-        href='src\assets\Rishi_Agrawal_CSE_2025_.pdf' // Replace with the path to your resume PDF
-        download='Rishi_Agrawal_CSE_2025_.pdf' // The file will be downloaded with this name
+        href='src\assets\Rishi_Agrawal_CSE_2025_.pdf'
+        download='Rishi_Agrawal_CSE_2025_.pdf'
       >
         Resume <BsFillPersonLinesFill size={30} />
       </a>
     </li>
   </ul>
 </div>
+
 
     </div>
   );
